@@ -10,3 +10,21 @@ def multiply(a,b):
 def divide(a,b):
 	return a/b
 
+def main():
+	while True:
+		a = float(input("Enter First number: "))
+		op = input("Enter Operation (+, -, *, /")
+		b = float(input("Enter Second Number"))
+		if op == "+":
+			print ("Result = ", add(a,b))
+		elif op == "-":
+			print("Result = ", subtract(a,b))
+		elif op == "*":
+			print("Result = ", multiply(a,b))
+		elif op == "/":
+			print("Result = ", divide(a,b))
+		else:
+			print("Unknown Operator: ", op)
+
+if __name__ == "__main__":
+	main()
