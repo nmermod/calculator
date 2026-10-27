@@ -4,10 +4,14 @@ What Will it do?
 
 Add, subtract, multiply and divide two numbers, then display the result.
 
+
 How to run it:
 
 Run: python3 calculator.py
+OR
+Run: ./run.sh
 
 Enter the first number, the second number, and then the operator (+,-,*,/)
-
 The program prints out Result: followed by the result of the operation.
+
+To stop it, press Ctrl+C.
