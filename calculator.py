@@ -35,7 +35,7 @@ def Circle_Area(r):
 	if r >= 0:
 		return 3.14 * r * r
 	else:
-		return "NaN"
+		return "Error"
  
 
 
